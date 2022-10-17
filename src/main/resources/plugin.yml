@@ -1,0 +1,8 @@
+name: Stars_DeathProtect
+version: '${project.version}'
+main: me.xcmc.Stars_DeathProtect
+api-version: 1.16
+depend: [ Vault ]
+softdepend: [ PlayerPoints ]
+authors: [ Xing_Chen ]
+description: 星辰系列 - 死亡保护 or 死亡惩罚？ 一款在玩家死亡后给予一定惩罚的插件
