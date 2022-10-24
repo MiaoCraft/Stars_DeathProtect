@@ -1,13 +1,11 @@
 package me.xcmc.listener;
 
 import me.xcmc.Stars_DeathProtect;
-import org.bukkit.Bukkit;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.PlayerDeathEvent;
-import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
 
@@ -69,7 +67,6 @@ public class PlayerDeath implements Listener {
             }
         }
         new BukkitRunnable(){
-
             @Override
             public void run() {
                 e.getEntity().spigot().respawn();

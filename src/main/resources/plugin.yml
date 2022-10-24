@@ -1,7 +1,7 @@
 name: Stars_DeathProtect
 version: '${project.version}'
 main: me.xcmc.Stars_DeathProtect
-api-version: 1.16
+api-version: 1.13
 depend: [ Vault ]
 softdepend: [ PlayerPoints ]
 authors: [ Xing_Chen ]

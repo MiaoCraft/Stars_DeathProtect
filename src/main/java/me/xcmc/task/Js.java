@@ -18,6 +18,7 @@ public class Js {
             public void run() {
                 if(i==0){
                     this.cancel();
+                    p.sendTitle("死亡保护结束了...","",10,5,10);
                     p.setAllowFlight(false);
                     p.setFlying(false);
                 }
